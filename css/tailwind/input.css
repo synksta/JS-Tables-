@@ -11,7 +11,7 @@
 	user-select: none;
 }
 .cell {
-	@apply flex flex-row items-center justify-center p-2 m-2 font-bold bg-gray-900 rounded-lg text-unselectable text-stone-400 hover:border-8 hover:border-stone-400;
+	@apply flex flex-row items-center justify-center p-2 font-bold bg-gray-900 rounded-lg text-unselectable text-stone-400 hover:border-8 hover:border-stone-400;
 }
 .selectedCell {
 	@apply border-8 border-stone-400;
@@ -29,10 +29,10 @@
 	@apply z-0 flex items-center w-screen h-screen;
 }
 .tableBlock {
-	@apply flex flex-col p-3 m-auto bg-gray-800 rounded-lg;
+	@apply flex flex-col gap-2 p-3 m-auto bg-gray-800 rounded-lg;
 }
 .row {
-	@apply flex flex-row;
+	@apply flex flex-row gap-2;
 }
 .stickToBottom {
 	@apply absolute bottom-0 z-10 w-full;
