@@ -1,0 +1,16 @@
+{
+  "name": "js_tables",
+  "version": "1.0.0",
+  "description": "Test app",
+  "main": "index.js",
+  "repository": "https://github.com/synksta/JS-Tables-.git",
+  "author": "synksta <contriturbamentum@gmail.com>",
+  "license": "MIT",
+  "private": "false",
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "scripts": {
+    "build": "tailwindcss build -i ./css/tailwind/input.css -o ./css/tailwind/output.css --watch"
+  }
+}
