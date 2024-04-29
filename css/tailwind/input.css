@@ -10,6 +10,9 @@
 	-ms-user-select: none;
 	user-select: none;
 }
+body {
+	@apply bg-black;
+}
 .cell {
 	@apply flex flex-row items-center justify-center p-2 font-bold bg-gray-900 rounded-lg text-unselectable text-stone-400 hover:border-8 hover:border-stone-400;
 }
